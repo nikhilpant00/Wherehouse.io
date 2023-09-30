@@ -1,0 +1,47 @@
+.menu-btn {
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.menu {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-list {
+  display: none;
+  position: absolute;
+  background-color: #2b3444;
+  width: 250px;
+  border: 2px solid rgb(63, 64, 79);
+  border-radius: 4px;
+  z-index: 1;
+  padding: 4px;
+}
+
+.menu-item {
+  color: rgba(255, 255, 255, 0.87);
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.menu-item:hover {
+  background-color: #374358;
+}
+
+.menu:hover .menu-list {
+  display: block;
+}
+
+.colorIcon {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
